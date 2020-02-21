@@ -1,0 +1,158 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: larger;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+.name-highlight {
+  color: orange;
+}
+p {
+  color: dimgray;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+
+  padding-left: 2%;
+}
+.half-width img {
+  width: 100%;
+}
+.top-banner {
+  background-image: url("./images/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+section {
+  height: 500px;
+  padding-bottom: 250px;
+}
+.hire-link {
+  text-decoration: none;
+  background-image: linear-gradient(60deg, lightsalmon, orange);
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: azure;
+  font-weight: 700;
+}
+.mid-half-width {
+  width: 40%;
+  float: right;
+  margin-right: 5%;
+  padding-right: 2%;
+}
+.mid-half-width img {
+  width: 100%;
+}
+.mid-banner {
+  background-image: url("./images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.project-link {
+  text-decoration: none;
+  background-image: linear-gradient(60deg, lightsalmon, orange);
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: azure;
+  font-weight: 700;
+}
+
+.experience-tab {
+  box-shadow: 10px 10px 40px rgba(128, 128, 128, 0.418);
+  border-radius: 5px;
+  border: whitesmoke;
+  height: cover;
+}
+.bottom-banner {
+  height: 500px;
+  background-image: url("./images/latest-work-bg.png");
+  background-repeat: no-repeat;
+}
+.bottom-half-width {
+  width: 25%;
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottom-half-width img {
+  width: 100%;
+}
+#my-work {
+  text-align: center;
+  font-weight: 900;
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.fade {
+  opacity: 0.8;
+}
+.fade:hover {
+  opacity: 1;
+}
+
+#exp {
+  text-align: center;
+  font-weight: 900;
+}
+#compliment {
+  text-align: center;
+  font-weight: 900;
+}
+.last-banner {
+  height: 500px;
+  background-image: url("./images/footer-bg.png");
+  background-repeat: no-repeat;
+}
+#client {
+  text-align: center;
+  font-weight: 900;
+}
+.designition {
+  color: dimgray;
+  text-align: center;
+  font-size: medium;
+}
+.compliment {
+  text-align: center;
+
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 2%;
+}
+.compliment-para {
+  color: black;
+}
+.contact-link {
+  margin-top: 5%;
+  width: 100%;
+  text-align: center;
+}
+.email-link {
+  text-decoration: none;
+  background-image: linear-gradient(30deg, rgb(255, 0, 106), rgb(197, 3, 110));
+  border-radius: 5px;
+  padding: 5px 50px;
+  color: azure;
+  font-weight: 700;
+  display: inline-block;
+}
+.email-para {
+  text-align: center;
+  color: white;
+  font-size: small;
+  font-weight: lighter;
+}
