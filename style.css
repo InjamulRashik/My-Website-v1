@@ -87,8 +87,10 @@ section {
   transition-duration: 0.5s;
   transition-timing-function: ease;
   transition-delay: 0s;
+  transition: all 0.2s ease-in-out;
 }
 .project-link:hover {
+  transform: scale(1.5);
 }
 .hire-link:hover {
   -webkit-transform: scale(1.3);
@@ -205,8 +207,8 @@ footer p {
   font-weight: lighter;
 }
 .slide-right {
-  -webkit-animation: slide-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: slide-right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 @-webkit-keyframes slide-right {
@@ -230,8 +232,8 @@ footer p {
   }
 }
 .slide-left {
-  -webkit-animation: slide-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: slide-left 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-left 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 @-webkit-keyframes slide-left {
