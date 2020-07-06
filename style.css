@@ -14,7 +14,7 @@ h2 {
 }
 
 .name-highlight {
-  color: orange;
+  color: rgb(255, 165, 0);
   font-size: 60px;
 }
 #goal-life {
@@ -40,7 +40,6 @@ p {
   width: 100%;
 }
 .top-banner {
-  background-image: url("./images/header-bg.png");
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -50,7 +49,7 @@ section {
 }
 .hire-link {
   text-decoration: none;
-  background-image: linear-gradient(60deg, lightsalmon, orange);
+  background-image: linear-gradient(60deg, hsl(17, 100%, 74%), orange);
   border-radius: 5px;
   padding: 10px 20px;
   color: azure;
@@ -277,4 +276,11 @@ footer p {
   -webkit-transform: scale(1.3);
   -ms-transform: scale(1.3);
   transform: scale(1.3);
+}
+#canvas {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
